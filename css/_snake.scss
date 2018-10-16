@@ -1,0 +1,102 @@
+.snake {
+	position: absolute;
+	left: calc(50% - 7.5px);
+	width: 15px;
+	height: 15px;
+	animation: snake 5s infinite;
+	background: blue;
+}
+
+@keyframes snake {
+	0% {
+		top: 0;
+		left: calc(50% - 7.5px);
+		width: 15px;
+		background: blue;
+		height: 15px;
+	}
+	7.5% {
+		top: 0;
+		left: calc(50% - 7.5px);
+		width: 15px;
+		background: green;
+		height: 100%;
+	}
+	15% {
+		top: calc(100% - 15px);
+		left: calc(50% - 7.5px);
+		width: 15px;
+		background: green;
+		height: 15px;
+	}
+	22.5% {
+		top: calc(100% - 15px);
+		left: 0;
+		width: 50%;
+		background: yellow;
+		height: 15px;
+	}
+	30% {
+		top: calc(100% - 15px);
+		left: 0;
+		width: 15px;
+		background: orange;
+		height: 15px;
+	}
+	37.5% {
+		top: calc(50% - 7.5px);
+		left: 0;
+		width: 15px;
+		background: orange;
+		height: 50%;
+	}
+	45% {
+		top: calc(50% - 7.5px);
+		left: 0;
+		width: 15px;
+		background: red;
+		height: 15px;
+	}
+	52.5% {
+		top: calc(50% - 7.5px);
+		left: 0;
+		width: 100%;
+		background: red;
+		height: 15px;
+	}
+	60% {
+		top: calc(50% - 7.5px);
+		left: calc(100% - 15px);
+		width: 15px;
+		background: red;
+		height: 15px;
+	}
+	67.5% {
+		top: 0;
+		left: calc(100% - 15px);
+		width: 15px;
+		background: skyblue;
+		height: 50%;
+	}
+	75% {
+		top: 0;
+		left: calc(100% - 15px);
+		width: 15px;
+		background: skyblue;
+		height: 15px;
+	}
+	82.5% {
+		top: 0;
+		left: calc(50% - 7.5px);
+		width: 50%;
+		background: skyblue;
+		height: 15px;
+	}
+	90% {
+		top: 0;
+		left: calc(50% - 7.5px);
+		width: 15px;
+		background: blue;
+		height: 15px;
+	}
+}

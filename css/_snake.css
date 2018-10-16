@@ -1,0 +1,21 @@
+.snake {
+  width: 5px;
+  heigh: 5px;
+  -webkit-animation: snake 1s;
+  animation: snake 1s; }
+
+@-webkit-keyframes snake {
+  0% {
+    left: 50%;
+    top: 0%; }
+  100% {
+    left: 50%;
+    top: 100%; } }
+
+@keyframes snake {
+  0% {
+    left: 50%;
+    top: 0%; }
+  100% {
+    left: 50%;
+    top: 100%; } }
